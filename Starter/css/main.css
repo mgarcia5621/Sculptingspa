@@ -353,9 +353,10 @@ Recipes
 }
 
 .recipe-img {
-    height: 15rem;
+    height: 100px;
     border-radius: 4px;
     margin-bottom: 1rem;
+
 }
 
 .recipe h5 {
@@ -648,4 +649,13 @@ Single recipe Page
         grid-template-columns: repeat(2fr 1fr);
     
     }
+}
+
+.aboutradio {
+    margin: 20px;
+}
+
+.aboutinfo {
+    margin: 20px;
+    font-size: 20px;
 }
