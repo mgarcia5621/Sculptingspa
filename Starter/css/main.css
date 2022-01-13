@@ -58,12 +58,13 @@ body {
 }
 
 .nav-link:hover {
-    color: blue;
+    color: pink;
 }
 
 .contact-link a {
     padding: 0.15rem 1rem;
     text-decoration: none;
+    padding: 5px;
 }
 
 #sideNav .closebtn {
@@ -203,9 +204,10 @@ body {
     .contact-link {
         margin-left: auto;
         margin-right: 0;
-        background: #5C7AEA;
-        
-        
+        background: black;
+    }
+    .contact-link a {
+        color: white;
     }
 }
 
@@ -309,6 +311,8 @@ Recipes
 
 .tag-container h4 {
     font-size: 22px;
+    color: #EDD27Aff;
+    text-shadow: red;
 }
 
 .tag-container {
@@ -324,6 +328,7 @@ Recipes
      gap: 2rem 1rem;
      padding-bottom: 3rem;
     /* border: 2px solid green; */
+    
     
 }
 
@@ -345,7 +350,7 @@ Recipes
 }
 
 .tags-list a:hover {
-    color: dimgray;
+    color: pink;
 }
 
 .recipe {
@@ -363,6 +368,7 @@ Recipes
     margin-bottom: 0;
     line-height: 1;
     color: grey;
+    
 }
 
 .recipe p {
@@ -502,7 +508,7 @@ Contact page
 .form-row {
     color: white;
     padding: 0.5rem 0.5rem;
-    background: #5C7AEA;
+    background: lightpink;
     font-weight: 600;
 }
 
@@ -543,7 +549,7 @@ Tags page
 }
 
 .tag:hover {
-    background: blue;
+    background: pink;
 }
 
 .tag h5, .tag p {
