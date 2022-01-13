@@ -22,6 +22,8 @@ body {
     width: 90vw;
     max-width: 1120px;
     /* background: red; */
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-header {
@@ -37,6 +39,7 @@ body {
 
 .nav-btn {
     padding: 0.15rem 0.75rem;
+    align-items: center;
 }
 
 .nav-btn i {
@@ -45,11 +48,14 @@ body {
 
 .nav-link {
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.nav-link>a {
+.nav-link a {
     margin: 0 3rem;
+    align-items: center;
 }
 
 
@@ -312,7 +318,7 @@ Recipes
 .tag-container h4 {
     font-size: 22px;
     color: #EDD27Aff;
-    text-shadow: red;
+    
 }
 
 .tag-container {
