@@ -35,6 +35,8 @@ body {
 
 .nav-header img {
     width: 200px;
+    float: left;
+    display: inline-flex;
 }
 
 .nav-btn {
@@ -64,7 +66,7 @@ body {
 }
 
 .nav-link:hover {
-    color: pink;
+    color: black;
 }
 
 .contact-link a {
@@ -177,6 +179,8 @@ body {
     letter-spacing: 2px;
     text-decoration: none;
     justify-content: space-between;
+    
+    color: rgb(241, 153, 166);;
 }
 
 @media screen and (min-width:992px) {
@@ -210,10 +214,13 @@ body {
     .contact-link {
         margin-left: auto;
         margin-right: 0;
-        background: black;
+        /* background: black; */
     }
     .contact-link a {
-        color: white;
+        color: rgb(241, 153, 166);
+    }
+    a:hover {
+        color: black;
     }
 }
 
