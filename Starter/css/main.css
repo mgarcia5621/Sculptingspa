@@ -181,6 +181,7 @@ body {
     justify-content: space-between;
     
     color: rgb(241, 153, 166);;
+    -webkit-text-stroke: 0.5px lightgrey;
 }
 
 @media screen and (min-width:992px) {
