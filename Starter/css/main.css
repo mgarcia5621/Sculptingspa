@@ -323,8 +323,10 @@ Recipes
 }
 
 .tag-container h4 {
-    font-size: 22px;
+    font-size: 23px;
     color: black;
+    display: flex;
+    justify-content: flex-end;
     
 }
 
@@ -352,7 +354,6 @@ Recipes
 }
 
 .tags-list {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -372,17 +373,20 @@ Recipes
 }
 
 .recipe-img {
-    width: 150px;
+    width: 250px;
     max-width: 250px;
     border-radius: 5px;
     margin-bottom: 1rem;
     margin: 20px;
+    display: flex;
+    margin-left: 50px;
 }
 
 .recipe h5  {
     margin-bottom: 0;
     line-height: 1;
     color: grey;
+    margin-left: 50px;
     
 }
 
@@ -393,6 +397,7 @@ Recipes
     margin-top: 0.5rem;
     color: grey;
     letter-spacing: 2px;
+    margin-left: 50px;
 }
 
 @media screen and (min-width: 576px) {
