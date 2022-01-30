@@ -327,8 +327,7 @@ Recipes
     font-size: 23px;
     color: black;
     display: flex;
-    justify-content: flex-end;
-    
+    justify-content: flex-end;   
 }
 
 .tag-container {
@@ -380,14 +379,14 @@ Recipes
     margin-bottom: 1rem;
     margin: 20px;
     display: flex;
-    margin-left: 50px;
+    margin-left: 58px;
 }
 
 .recipe h5  {
     margin-bottom: 0;
     line-height: 1;
     color: grey;
-    margin-left: 50px;
+    margin-left: 59px;
     
 }
 
@@ -398,7 +397,7 @@ Recipes
     margin-top: 0.5rem;
     color: grey;
     letter-spacing: 2px;
-    margin-left: 50px;
+    margin-left: 59px;
 }
 
 @media screen and (min-width: 576px) {
@@ -500,16 +499,17 @@ About
 
     .about-page .btn {
         text-decoration: none;
-        background: #645cff;
-        color: #fff;
+        background: lightpink;
+        color: black;
         font-size: 20px;
         border-radius: 4px;
         padding: 0.15rem 1rem;
         text-decoration: none;
     }
 }
-
-
+    .about-text {
+        margin: 20px;
+    }
 /* 
 ========
 Contact page
@@ -692,4 +692,35 @@ Single recipe Page
     display: flex;
     justify-content: center;
     margin: 20px;
+}
+
+.facial-info {
+    margin: 14px;
+}
+
+@media screen and (max-width: 480px) {
+    .tag-container h4{
+        /* background: blue; */
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+@media screen and (max-width: 820px) {
+    .tag-container h4{
+        /* background: blue; */
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 912px) {
+    .tag-container h4{
+        /* background: blue; */
+        display: flex;
+        justify-content: center;
+    }
 }
