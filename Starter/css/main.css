@@ -371,6 +371,7 @@ Recipes
 }
 
 .recipe-img {
+    width: 150px;
     max-width: 250px;
     border-radius: 5px;
     margin-bottom: 1rem;
@@ -379,8 +380,12 @@ Recipes
 .recipe h5  {
     margin-bottom: 0;
     line-height: 1;
-    color: grey;
+    /* color: grey; */
     
+}
+
+.recipe h5 a:hover {
+    color: pink;
 }
 
 .recipe p {
