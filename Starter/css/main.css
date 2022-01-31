@@ -724,3 +724,20 @@ Single recipe Page
         justify-content: center;
     }
 }
+
+
+@media screen and (max-width: 921px) {
+    .tag-container h4{
+        /* background: blue; */
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 912px) {
+    .page-footer {
+        /* background: blue; */
+        max-width: 300rem;
+    }
+}
