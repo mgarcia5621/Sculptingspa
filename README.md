@@ -4,7 +4,7 @@ This is a passion project for a client.
 
 <a href="https://www.makeareadme.com/">Click here for markdown example</a>
 
-[Demo](https://mgarcia5621.github.io/SimplyRecipe/)
+[Demo](https://mgarcia5621.github.io/Sculptingspa/)
 
 # Sculptering Spa
 
