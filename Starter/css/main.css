@@ -469,6 +469,10 @@ About
     padding-bottom: 3rem;
 }
 
+.about-page article {
+    padding-top: 29rem;
+}
+
 .about-img {
     border-radius: 4px;
     height: 300px;
