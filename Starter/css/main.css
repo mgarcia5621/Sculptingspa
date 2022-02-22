@@ -470,7 +470,7 @@ About
 }
 
 .about-page article {
-    padding-top: 29rem;
+    padding-top: 39rem;
 }
 
 .about-img {
@@ -748,4 +748,11 @@ Single recipe Page
 
 .laser-removal {
     margin: 20px;
+}
+
+.img-laser img{
+    border-radius: 4px;
+    height: 300px;
+    float: right;
+    margin: 10px;
 }
