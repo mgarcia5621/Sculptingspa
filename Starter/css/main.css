@@ -470,7 +470,7 @@ About
 }
 
 .about-text {
-    position: ; 
+    /* position: ;  */
 }
 
 .about-img {
@@ -755,4 +755,9 @@ Single recipe Page
     height: 300px;
     float: right;
     margin: 10px;
+}
+
+
+.attention {
+    margin-bottom: 20px;
 }
