@@ -461,18 +461,19 @@ About
 .about-page h2 {
     text-transform: none;
     font-weight: bold;
+     
 }
 
 .about-page {
     display: grid;
     gap: 2rem 4rem;
-    padding-bottom: 3rem;
+    padding-bottom: 3rem
 }
 
-.about-text {
-    /* position: ;  */
-}
-
+/* .about-page article {
+    /* background: black; */
+    /* margin-top: 3rem; */
+/* } */
 .about-img {
     border-radius: 4px;
     height: 300px;
@@ -493,6 +494,8 @@ About
     .about-img {
         align-items: center;
         border-radius: 50px;
+        max-width: fit-content;
+        
     }
 
     .featured-title {
@@ -500,6 +503,8 @@ About
         font-size: 20px;
         margin-bottom: 20px;
     }
+
+
 
     .about-page .btn {
         text-decoration: none;
@@ -509,6 +514,7 @@ About
         border-radius: 4px;
         padding: 0.15rem 1rem;
         text-decoration: none;
+
     }
 }
     .about-text {
@@ -760,4 +766,10 @@ Single recipe Page
 
 .attention {
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: px) {
+    .about-img {
+        background: black;
+    }
 }
